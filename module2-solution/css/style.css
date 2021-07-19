@@ -7,22 +7,38 @@
     margin-bottom: 15px;
   }
   .relative{
-      position:relative;
+    position:relative;
   }
-  .absolute{
-      position:absolute;
-      top:0px;
+  .absolute1{
+    position:absolute;
+    top:0px;
     border: 1px solid black;
     background-color: #c24545;
-    width: 70px;
+    width: 76px;
     height: 30px;
     padding:5px;
-    /* margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-top: 55px;
-    padding-right: 10px;
-    padding-left: 10px; */
+    font-family: Helvetica;
+    color: white;
+  }
+  .absolute2{
+    position:absolute;
+    top:0px;
+    border: 1px solid black;
+    background-color: #9045c2;
+    width: 76px;
+    height: 30px;
+    padding:5px;
+    font-family: Helvetica;
+    color: white;
+  }
+  .absolute3{
+    position:absolute;
+    top:0px;
+    border: 1px solid black;
+    background-color: #a7c245;
+    width: 76px;
+    height: 30px;
+    padding:5px;
     font-family: Helvetica;
     color: white;
   }
