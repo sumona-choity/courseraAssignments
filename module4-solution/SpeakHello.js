@@ -33,8 +33,8 @@
   // johnGreeter.name = "John";
   // var greeting = "Hi ";
   var speakWord = "Hello";
-  helloSpeaker.speak = function() {
-    console.log(speakWord + " " );
+  helloSpeaker.speak = function(name) {
+    console.log(speakWord + " " + name);
   }
 
   window.helloSpeaker = helloSpeaker;
