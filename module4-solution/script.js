@@ -34,8 +34,8 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
-helloSpeaker.speak(names[i]);
-byeSpeaker.speak(names[i]);
+helloSpeaker.speak();
+byeSpeaker.speak();
 
 
 (function () {
