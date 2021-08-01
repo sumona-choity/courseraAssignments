@@ -28,7 +28,7 @@
 // xxxx.xxxx = helloSpeaker;
 
 
-(function () {
+(function (window) {
   var helloSpeaker = {};
   // johnGreeter.name = "John";
   // var greeting = "Hi ";
@@ -37,6 +37,6 @@
     console.log(speakWord + " " + name);
   }
 
-  // window.helloSpeaker = helloSpeaker;
+  window.helloSpeaker = helloSpeaker;
 
-})();
+})(window);

@@ -26,7 +26,7 @@
 
 
 
-(function () {
+(function (window) {
   var byeSpeaker = {};
   // johnGreeter.name = "John";
   // var greeting = "Hi ";
@@ -35,6 +35,6 @@
     console.log(speakWord + " " + name);
   }
 
-  // window.byeSpeaker = byeSpeaker;
+  window.byeSpeaker = byeSpeaker;
 
-})();
+})(window);
