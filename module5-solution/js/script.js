@@ -115,9 +115,9 @@ $ajaxUtils.sendGetRequest(
       // of how to do that.
       // ....
 
-    },
-    true); // False here because we are getting just regular HTML from the server, so no need to process JSON.
-}); // Explicitly setting the flag to get JSON from server processed into an object literal
+    }); // False here because we are getting just regular HTML from the server, so no need to process JSON.
+}, // ***** <---- TODO: STEP 1: Substitute [...] ******
+  true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
 
